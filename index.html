@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Responsive Navbar Example</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar" id="myNavbar">
+    <a href="#home" class="active">Logo</a>
+    <div class="dropdown">
+      <button class="dropbtn">Menu 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#news">News</a>
+        <a href="#sports">Sports</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#technology">Technology</a>
+      </div>
+    </div>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="content">
+    <h3>Responsive Navbar Example</h3>
+    <p>This example demonstrates a responsive navigation menu on both desktop and mobile devices. Click on the hamburger menu in the top right corner to toggle the menu.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
